@@ -28,6 +28,7 @@ return array(
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
     'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src/Prophecy'),
     'Peridot\\WebDriverManager\\' => array($vendorDir . '/peridot-php/webdriver-manager/src'),
+    'MinkFieldRandomizer\\' => array($vendorDir . '/jordigiros/minkfieldrandomizer/src/MinkFieldRandomizer'),
     'GuzzleHttp\\Psr7\\' => array($vendorDir . '/guzzlehttp/psr7/src'),
     'GuzzleHttp\\Promise\\' => array($vendorDir . '/guzzlehttp/promises/src'),
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),

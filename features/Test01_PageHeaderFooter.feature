@@ -7,9 +7,9 @@ Feature: search several pages of the site
         Then I should see header <status>
         Then I should see footer <status>
     Examples:
-        | page              | URL                                                       | status    |
-        | "Home Page"       | "/"                                                       | "True"    |
-        | "Contact Page"    | "/?controller=contact"                                    | "False"    |
-        | "Test Page"       | "/sdfgh"                                                  | "True"   |
-        | "Sign in Page"    | "/index.php?controller=authentication&back=my-account"    | "True"    |
-        | "Cart Page"       | "/index.php?controller=order"                             | "True"    |
+        | page              | URL                                                       | status |
+        | "Home Page"       | "/"                                                       | true   |
+        | "Contact Page"    | "/?controller=contact"                                    | true   |
+        | "Sign in Page"    | "/index.php?controller=authentication&back=my-account"    | true   |
+        | "Cart Page"       | "/index.php?controller=order"                             | true   |
+

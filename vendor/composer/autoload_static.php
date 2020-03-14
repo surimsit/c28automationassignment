@@ -55,6 +55,10 @@ class ComposerStaticInit58b06e592e4ce543122b21d7a56b9adc
             'Prophecy\\' => 9,
             'Peridot\\WebDriverManager\\' => 25,
         ),
+        'M' => 
+        array (
+            'MinkFieldRandomizer\\' => 20,
+        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
@@ -165,6 +169,10 @@ class ComposerStaticInit58b06e592e4ce543122b21d7a56b9adc
         'Peridot\\WebDriverManager\\' => 
         array (
             0 => __DIR__ . '/..' . '/peridot-php/webdriver-manager/src',
+        ),
+        'MinkFieldRandomizer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jordigiros/minkfieldrandomizer/src/MinkFieldRandomizer',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (

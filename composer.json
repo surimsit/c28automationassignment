@@ -8,6 +8,7 @@
         "phpunit/phpunit": "7"
     },
     "require": {
-        "behat/mink-selenium2-driver": "^1.3"
+        "behat/mink-selenium2-driver": "^1.3",
+        "jordigiros/minkfieldrandomizer": "^1.3"
     }
 }
